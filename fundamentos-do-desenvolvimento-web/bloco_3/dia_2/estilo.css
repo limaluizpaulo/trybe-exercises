@@ -1,0 +1,41 @@
+body {
+    font-size: 16px;
+    
+  }
+
+h1 {
+font-size: 65px;
+color:orange;
+font-family: sans-serif;
+text-decoration: overline;
+}
+
+ul {
+background-color: yellowgreen;
+line-height:30px
+}
+
+.alterar_fundo {
+background-color: black;
+}
+
+p {b
+font-weight: 600;
+font-size: 3em;
+font-style:italic;
+text-align:center;
+color:white;
+}
+
+
+.yellow{
+background-color: yellow;
+}
+
+.red {
+background-color: red;
+}
+
+.brown {
+background-color: brown;
+}
