@@ -1,4 +1,4 @@
-# Trybe
+<p><img align="center" src="https://github.com/limaluizpaulo/limaluizpaulo.github.io/blob/master/trybe_.png" alt="trybe" /></p>
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Luiz Paulo Lima](https://www.linkedin.com/in/limaluizpaulo/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
@@ -24,7 +24,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 3-1: _HTML & CSS - Estruturas de página_ :heavy_check_mark: 
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_ :heavy_check_mark: 
-- [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
+- [X] 3-3: _HTML & CSS - Seletores e posicionamento_ :heavy_check_mark: 
 - [ ] 3-4: _HTML Semântico_
 - [ ] 3-5: _[Projeto - HTML & CSS]()_
 
