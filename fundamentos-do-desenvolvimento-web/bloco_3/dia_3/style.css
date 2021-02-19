@@ -1,27 +1,41 @@
- .caixa {
-      color: white;
-      display: inline-block;
-      line-height: 50px;
-      text-align: center;
-      vertical-align: top;
+h1, p {
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+background-color: aqua;
+
+}
+
+li:active{
+    background-color: rgb(255, 123, 0);
+    color: white;
     }
 
-    .width-and-height {
-      height: 50px;
-      width: 50px;
+    div:hover{
+        border-color: blue;  
+        border-style: solid;
     }
-
-    .padding {
-    /* insira aqui um padding de 20px na classe abaixo para aplicá-lo aos itens B, C e D */
-    padding: 20px;
+    div:nth-of-type(1){
+        color: red;
+        font-style: italic;
     }
-
-    .margin {
-    /* insira aqui uma margem de 30px na classe abaixo para aplicá-la aos itens C e D */
-    margin: 30px;
+    div:nth-of-type(2){
+        color: green;
     }
-
-    .border {
-    /* insira aqui uma borda com valor '5px solid black' para aplicá-la ao item D */
-    border: 5px solid black;
+    div:nth-of-type(3){
+        color:purple;
+        font-size: 2em;
+        font-style: italic;
+    }
+    div:nth-of-type(4){
+        color: black;
+    }
+    div:nth-of-type(5){
+        color: yellow;
+        font-style: italic;
     }
