@@ -4,7 +4,18 @@
 }
 
 body{
-  background-color: rgb(226, 226, 226);
+  background-color:snow;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-color: orangered;
+    border: 3px solid black;
+}
+
+a{
+    color: orangered;
 }
 
 .nav-bar ul li{
@@ -13,11 +24,24 @@ body{
   margin: 15px;
 }
 
+.img_header{
+    border: 2px solid rgb(0, 0, 0);
+  }
+
 img{
-  width: 300px;
+  width: 200px;
   border-radius: 30% 0;
   margin: 10px;
   padding: 10px;
+  border: 2px solid orangered;
+}
+
+h2 {
+    text-align: center;
+}
+
+p{
+    margin: auto;
 }
 
 .conteudo{
@@ -26,7 +50,7 @@ img{
 }
 
 .nav-bar{
-  display: inline-block;
+    text-align: center;
 }
 
 .principal{
@@ -35,11 +59,14 @@ img{
 }
 
 .artigo{
-  max-width: 70%;
+  max-width: 60%;
   padding: 1%;
 }
 
 .lateral{
-  max-width: 30%;
+  max-width: 20%;
   padding: 1%;
+  border: 3px solid orangered;
+  background-color: black;
+  color: white;
 }
