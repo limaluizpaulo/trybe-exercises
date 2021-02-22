@@ -9,7 +9,6 @@ body{
 
 header {
     text-align: center;
-    width: 100%;
     background-color: orangered;
     border: 3px solid black;
 }
@@ -68,7 +67,6 @@ p{
 }
 
 .lateral{
-  max-width: 20%;
   padding: 1%;
   border: 3px solid orangered;
   background-color: black;
