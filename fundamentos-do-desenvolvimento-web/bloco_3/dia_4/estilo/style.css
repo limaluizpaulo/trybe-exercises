@@ -18,6 +18,10 @@ a{
     color: orangered;
 }
 
+a:hover{
+    color: black;
+}
+
 .nav-bar ul li{
   display:inline;
   font-size: 25px;
