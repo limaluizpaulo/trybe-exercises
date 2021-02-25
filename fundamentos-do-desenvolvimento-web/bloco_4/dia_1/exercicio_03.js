@@ -1,6 +1,14 @@
-let a = 3;
-let b = 9;
-let c = 9;
+function getRandom(min = 0, max = 100) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min;
+  }
+
+let a = getRandom();
+let b = getRandom();
+let c = getRandom();
+
+console.log(`Valores: a: ${a}, b: ${b}, c: ${c}.`)
 
 if(a > b && a > c){
     console.log(`o primeiro valor ${a} é o maior`)

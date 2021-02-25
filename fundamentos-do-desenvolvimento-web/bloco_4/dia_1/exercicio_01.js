@@ -1,17 +1,27 @@
-let a = 30;
-let b = 40;
+function getRandom(min = 0, max = 100) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min;
+  }
 
+let a = getRandom();
+let b = getRandom()
+
+;
+
+
+console.log(`Os numeros selecionados aleatórimente foram:${a} e ${b}`)
 // Adição
-console.log(a + b);
+console.log("Adição: ", a + b);
 
 // Subtração
-console.log(a - b);
+console.log("Subtração: ",a - b);
 
 // Divisão
-console.log(a / b);
+console.log("Divisão: ",a / b);
 
 // Multiplicação
-console.log(a * b);
+console.log("Multiplicaçõ: ",a * b);
 
 // Modulo
-console.log(a % b);
+console.log("Módulo: ",a % b);
