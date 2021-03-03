@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2 id="page-title">Título</h2>
+    <p class="paragraph" id="paragraph">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p class="paragraph" id="second-paragraph">Segundo parágrafo!</p>
+
+    <script>
+      var paragraph = document.getElementById("page-title");
+      paragraph.innerText = "What is the Matrix?";
+
+      var paragraph = document.getElementById("page-title");
+      paragraph.style.backgroundColor = "green";
+
+      var paragraph = document.getElementById("subtitle");
+      paragraph.innerText = "The answer is out there, Neo, and it's looking for you, and it will find you if you want it to.";
+
+      var secondParagraph =document.getElementById("second-paragraph");
+      secondParagraph.innerText = "O melhor filme de todos os tempos!"
+
+      var pa = document.getElementsByClassName("paragraph")[0];
+      pa.style.backgroundColor = "red"
+
+      console.log(document.getElementsByTagName("h4")[0].innerText)
+    </script>
+  </body>
+</html>
