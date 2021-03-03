@@ -9,5 +9,5 @@ for(let j = 0; j < n; j++){
 for(let j = 0; j < n/2; j++){
     console.log(espaco.join("")+asterisco.join(""))
     asterisco.push("**")
-    espaco.pop()  
+    espaco.pop()
 }
