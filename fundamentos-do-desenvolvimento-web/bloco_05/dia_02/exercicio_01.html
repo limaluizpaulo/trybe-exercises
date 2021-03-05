@@ -37,8 +37,18 @@
   <script>
       let elementoOndeVoceEsta = document.querySelector('#elementoOndeVoceEsta');
       console.log(elementoOndeVoceEsta)
+
       let pai = document.querySelector('#elementoOndeVoceEsta').parentNode;
       pai.style.backgroundColor = 'blue'
+
+      let primeiroFilhoDoFilho = document.querySelector('#primeiroFilhoDoFilho');
+      primeiroFilhoDoFilho.innerHTML = '<p>Primeiro filho do Filho</p>'
+
+      let filhodopai = document.querySelector('#pai').firstElementChild;
+      filhodopai.innerHTML = '<p>Filho do Pai</p>'
+
+      let primeiro = document.querySelector('#elementoOndeVoceEsta').firstElementChild;
+      primeiro.style.backgroundColor = 'red'
   </script>
 
 </body>
