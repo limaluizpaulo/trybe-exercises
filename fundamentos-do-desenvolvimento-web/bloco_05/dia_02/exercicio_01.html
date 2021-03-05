@@ -16,8 +16,8 @@
         <div id="segundoEUltimoFilhoDoFilho"></div>
       </div>
       Atenção!
-      <div id="terceiroFilho"></div>
-      <div id="quartoEUltimoFilho"></div>
+      <div id="terceiroFilho">oi</div>
+      <div id="quartoEUltimoFilho">ola</div>
     </div>
   </div>
 
@@ -35,20 +35,19 @@
 
 
   <script>
-      let elementoOndeVoceEsta = document.querySelector('#elementoOndeVoceEsta');
-      console.log(elementoOndeVoceEsta)
+      
+      console.log(document.querySelector('#elementoOndeVoceEsta'))
 
-      let pai = document.querySelector('#elementoOndeVoceEsta').parentNode;
-      pai.style.backgroundColor = 'blue'
+      document.querySelector('#elementoOndeVoceEsta').parentNode.style.backgroundColor = 'blue'
 
-      let primeiroFilhoDoFilho = document.querySelector('#primeiroFilhoDoFilho');
-      primeiroFilhoDoFilho.innerHTML = '<p>Primeiro filho do Filho</p>'
+      document.querySelector('#primeiroFilhoDoFilho').innerHTML = '<p>Primeiro filho do Filho</p>'
 
-      let filhodopai = document.querySelector('#pai').firstElementChild;
-      filhodopai.innerHTML = '<p>Filho do Pai</p>'
+      document.querySelector('#pai').firstElementChild.innerHTML = '<p>Filho do Pai</p>'
+      
+      document.querySelector('#elementoOndeVoceEsta').firstElementChild.style.backgroundColor = 'red'
 
-      let primeiro = document.querySelector('#elementoOndeVoceEsta').firstElementChild;
-      primeiro.style.backgroundColor = 'red'
+      document.querySelector('#elementoOndeVoceEsta').nextElementSibling.innerHTML= 'Agr vai'
+      
   </script>
 
 </body>
