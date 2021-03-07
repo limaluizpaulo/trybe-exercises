@@ -92,6 +92,24 @@ function createDaysOfTheWeek() {
         }
       }
 
+      function zoomIn(event) {
+        let day = event.target;
+        day.style.fontSize = "50px";
+      }
+      
+      function zoomOut(event) {
+        let day = event.target;
+        day.style.fontSize = "20px";
+      }
+      
+      function zoomSetup() {
+        let month = document.getElementById("days");
+        month.addEventListener('mouseover', zoomIn);
+        month.addEventListener('mouseout', zoomOut);
+      }
+      
+      zoomSetup();
+
 
 
 
