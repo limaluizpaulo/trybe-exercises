@@ -67,6 +67,17 @@ function createDaysOfTheWeek() {
         }
       }
 
+      function friday (string){
+        let btn = document.querySelector('.buttons-container');
+        let button = document.createElement( 'BUTTON')
+        button.innerHTML = string;
+        button.id = 'btn-friday';
+        btn.appendChild(button)
+        
+      }
+
+      friday('Sexta-Feira')
+
 
 
 
