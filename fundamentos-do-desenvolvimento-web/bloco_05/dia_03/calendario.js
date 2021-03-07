@@ -78,6 +78,20 @@ function createDaysOfTheWeek() {
 
       friday('Sexta-Feira')
 
+      let btn2 = document.querySelector('#btn-friday');
+        btn2.addEventListener('click', fridayColor)
+
+        function fridayColor(){
+        let sexta = document.querySelectorAll(".friday");
+        for (i in sexta) {
+          if (sexta[i].style.backgroundColor === "rgb(50, 50, 50)") {
+            sexta[i].style.backgroundColor = "rgb(238, 238, 238)";
+          } else {
+            sexta[i].style.backgroundColor = "rgb(50, 50, 50)";
+          }
+        }
+      }
+
 
 
 
