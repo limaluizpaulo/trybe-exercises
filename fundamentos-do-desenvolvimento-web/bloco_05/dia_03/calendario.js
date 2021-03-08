@@ -110,6 +110,17 @@ function createDaysOfTheWeek() {
       
       zoomSetup();
 
+      function addTask() {
+        let task = document.querySelector('#task-input')
+        let spam = document.createElement('li')
+        let list = document.querySelector('.my-tasks')
+        spam.innerHTML = task.value
+        list.appendChild(spam)
+      }
+
+      let btnAdd = document.querySelector('#btn-add')
+      btnAdd.addEventListener('click', addTask)
+
 
 
 
